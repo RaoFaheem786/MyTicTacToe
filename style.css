@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    background-color: black;
+    height:40px;
+    color:white;
+    font-size:1.5rem;
+    display :flex;
+    align-items:center;
+    padding:0 8px;
+    font-family:serif;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    background-color: black;
+    color:white;
+    font-size:1rem;
+    align-items:center;
+    font-family:serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.yellow{
+    color:yellow;
+}
+nav ul{
+    list-style-type:none;
+}
+.gameContainer{
+    display :flex;
+    justify-content:center;
+    margin-top:50px;
+    flex-wrap: wrap;
+}
+.container{
+    margin:0 auto;
+    display:grid;
+    grid-template-rows:repeat(3, 15vw);
+    grid-template-columns:repeat(3, 15vw);
+}
+.box{
+    border:2px solid black;
+    font-size:8vw;
+    cursor:pointer;
+    display:flex;
+    justify-content :center;
+    align-items:center ;
+}
+.box:hover{
+    backgbackground-color:#82fffc40 ;
+}
+.gameInfo{
+    padding:0 34px;
+    margin-top: 34px;
+}
+.info{
+    font-family: serif;
+    font-size: 1.5rem;
+    display: block;
+}
+#reset{
+    font-family: serif;
+    padding: 6px;
+    font-size: 1rem;
+    background-color:black;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 17vw;
+    margin-top: 34px;
+    border: none;
+}
+.imgBox img{
+    width: 0px;
+    transition: width 1s ease-in-out;
+    padding-top: 34px;
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.p-b{
+    margin-top: 34px;
+}
