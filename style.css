@@ -41,7 +41,6 @@ nav ul{
     flex-wrap: wrap;
 }
 .container{
-    margin:0 auto;
     display:grid;
     grid-template-rows:repeat(3, 15vw);
     grid-template-columns:repeat(3, 15vw);
